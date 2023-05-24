@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h2>
+        Danh sách loại sản phẩm
+    </h2>
+    <div id="category" class="categary-list">
+
+    </div>
+    <div class="search">
+        <h2>
+            Tìm kiếm sản phẩm
+        </h2>
+        <input id="input" type="text">
+        <button id="button">Tìm kiếm</button>
+    </div>
+    <div class="filter">
+        <select id="filter">
+            <option value="mac-dinh">Mặc định</option>
+            <option value="thap-den-cao">Giá thấp đến cao</option>
+            <option value="cao-den-thap">Giá cao đến thấp</option>
+            <option value="giam-gia-nhieu">Phần trăm giảm giá nhiều</option>
+        </select>
+
+        <h2>
+            Danh sách sản phẩm
+        </h2>
+        <div id="product" class="product-list">
+
+        </div>
+        <div class="navigate">
+            <span id="up" class="up">
+                +
+            </span>
+            <span id="display" class="display">
+                1
+            </span>
+            <span id="down" class="down">
+                -
+            </span>
+        </div>
+        <script type="module" src="./js/category.js"></script>
+        <script type="module" src="./js/product.js"></script>
+</body>
+
+</html>
